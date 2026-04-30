@@ -1,3 +1,9 @@
+## [3.3.0](https://github.com/tsingyuai/scientify/compare/v3.2.0...v3.3.0) (2026-04-30)
+
+### Features
+
+* add controlled study results for metabolism vs batch in README and SVG assets ([33e3f80](https://github.com/tsingyuai/scientify/commit/33e3f8068c92747ad7c02b8752197652764b9c2e))
+
 ## [3.2.0](https://github.com/tsingyuai/scientify/compare/v3.1.0...v3.2.0) (2026-04-03)
 
 ### Features
