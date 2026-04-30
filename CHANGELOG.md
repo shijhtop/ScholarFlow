@@ -1,3 +1,9 @@
+## [3.4.0](https://github.com/tsingyuai/scientify/compare/v3.3.1...v3.4.0) (2026-04-30)
+
+### Features
+
+* drop owner suffix from plugin id, simplify install command ([c3b16c5](https://github.com/tsingyuai/scientify/commit/c3b16c5ca73c87aadc3a26655f5de5a67306e06a))
+
 ## [3.3.1](https://github.com/tsingyuai/scientify/compare/v3.3.0...v3.3.1) (2026-04-30)
 
 ### Bug Fixes
