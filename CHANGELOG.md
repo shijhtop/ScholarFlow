@@ -1,3 +1,9 @@
+## [3.3.1](https://github.com/tsingyuai/scientify/compare/v3.3.0...v3.3.1) (2026-04-30)
+
+### Bug Fixes
+
+* update color styles for subtitle and labels in SVG assets ([85baada](https://github.com/tsingyuai/scientify/commit/85baada273346d96f8c6193b52fd145a77d9c830))
+
 ## [3.3.0](https://github.com/tsingyuai/scientify/compare/v3.2.0...v3.3.0) (2026-04-30)
 
 ### Features
