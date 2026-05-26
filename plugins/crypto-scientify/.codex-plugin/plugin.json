@@ -7,7 +7,7 @@
   },
   "license": "MIT",
   "keywords": ["research", "cryptography", "pqc", "arxiv", "eprint", "literature-review"],
-  "skills": "../../skills/",
+  "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
     "displayName": "Crypto-Scientify",

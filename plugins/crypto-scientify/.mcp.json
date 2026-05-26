@@ -4,7 +4,7 @@
     "csf": {
       "command": "node",
       "args": [
-        "../../mcp-server/index.mjs"
+        "./mcp-server/index.mjs"
       ]
     }
   }
