@@ -10,6 +10,7 @@ import {
 } from "./src/commands.js";
 import { createArxivSearchTool } from "./src/tools/arxiv-search.js";
 import { createOpenAlexSearchTool } from "./src/tools/openalex-search.js";
+import { createEprintSearchTool } from "./src/tools/eprint-search.js";
 import { createSkillInjectionHook } from "./src/hooks/inject-skill.js";
 import { createCronSkillInjectionHook } from "./src/hooks/cron-skill-inject.js";
 import { registerResearchCli } from "./src/cli/research.js";
@@ -23,6 +24,7 @@ export default definePluginEntry({
     // Register tools
     api.registerTool(createArxivSearchTool());
     api.registerTool(createOpenAlexSearchTool());
+    api.registerTool(createEprintSearchTool());
 
     // Register chat commands (bypass LLM)
     api.registerCommand({

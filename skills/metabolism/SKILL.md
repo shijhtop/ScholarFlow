@@ -94,7 +94,16 @@ openalex_search({
 })
 ```
 
-合并结果，按 arXiv ID / DOI 去重，**跳过 `processed_ids` 中已有的论文**。
+**IACR ePrint**（如果 sources 包含 "eprint"，密码学研究推荐启用）：
+```
+eprint_search({
+  query: "{keywords}",
+  date_from: "{5天前 YYYY-MM-DD}",
+  max_results: 20
+})
+```
+
+合并结果，按 arXiv ID / DOI / ePrint ID 去重，**跳过 `processed_ids` 中已有的论文**。
 
 按 /paper-download 的方式下载新论文到 `papers/`（arXiv 优先 .tex 源文件，DOI 通过 Unpaywall 获取 OA PDF）。
 

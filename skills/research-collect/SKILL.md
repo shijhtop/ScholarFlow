@@ -50,7 +50,13 @@ arxiv_search({ query: "<term>", max_results: 30 })
 openalex_search({ query: "<term>", max_results: 20 })
 ```
 
-合并两个来源的结果，按 arXiv ID / DOI 去重。
+**密码学研究额外调用**（当主题涉及密码学、PQC、侧信道、密码分析时）：
+
+```
+eprint_search({ query: "<term>", max_results: 20 })
+```
+
+合并所有来源的结果，按 arXiv ID / DOI / ePrint ID 去重。
 
 #### 2.2 筛选
 
@@ -140,5 +146,6 @@ mv "papers/2401.12345" "papers/data-driven/"
 |----------------|---------|
 | `arxiv_search` | 搜索 arXiv 论文 |
 | `openalex_search` | 搜索跨学科论文（覆盖更广） |
+| `eprint_search` | 搜索 IACR ePrint 密码学预印本（密码学研究必用） |
 | /paper-download | 下载论文（arXiv .tex/PDF、DOI via Unpaywall） |
 | `gh search repos "query"` | 搜索 GitHub 仓库 |
